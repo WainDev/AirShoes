@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Assets/styles/style.css" />
+    <title>Карточка товара</title>
+  </head>
+  <body>
+    <a href="./index.php">Главная</a>
+    <a href="./pay.html">Страница оплаты</a>
+    <a href="./admins.html">Админка</a>
+    <a href="./Product.html">Продкут</a>
+    <a href="./profile.html">Профиль</a>
+    <a href="./Register.php"></a>
+    <a href=""></a>
+    <div class="container">
+      <div
+        class="header_block mt-4 p-4 d-flex align-items-center justify-content-between"
+      >
+        <h1>Продукт</h1>
+        <a class="pay_button" href="/index.php">Назад</a>
+      </div>
+
+      <div class="product p-5 d-flex flex-wrap justify-content-between">
+        <div class="product_left">
+          <img class="w-100" src="./Assets/image/Forcegreen.png" alt="" />
+          <ul class="nav nav-tabs w-100 mt-4" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home"
+                type="button"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+              >
+                Детали
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+              >
+                Способы оплаты
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              ...
+            </div>
+            <div
+              class="tab-pane fade"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+            >
+              ...
+            </div>
+          </div>
+        </div>
+        <div class="product_right text-center">
+          <h1>Nike x Ambush</h1>
+          <span>Мужские кроссовки Air Force 1 Low ‘Pine Green’ </span>
+          <h5 class="mt-5 mb-4">Размеры</h5>
+          <div class="checkbox_rows mb-5 d-grid">
+            <div class="checkbox_block">
+              <input
+                type="radio"
+                name="model"
+                class="js-offer"
+                id="size_EU_36"
+                value="117459"
+              />
+              <label for="size_EU_36"> EU 36 </label>
+            </div>
+            <div class="checkbox_block">
+              <input
+                type="radio"
+                name="model"
+                class="js-offer"
+                id="size_EU_37"
+                value="117459"
+              />
+              <label for="size_EU_37"> EU 37 </label>
+            </div>
+            <div class="checkbox_block">
+              <input
+                type="radio"
+                name="model"
+                class="js-offer"
+                id="size_EU_38"
+                value="117459"
+              />
+              <label for="size_EU_38"> EU 38 </label>
+            </div>
+            <div class="checkbox_block">
+              <input
+                type="radio"
+                name="model"
+                class="js-offer"
+                id="size_EU_39"
+                value="117459"
+              />
+              <label for="size_EU_39"> EU 39 </label>
+            </div>
+            <div class="checkbox_block">
+              <input
+                type="radio"
+                name="model"
+                class="js-offer"
+                id="size_EU_40"
+                value="117459"
+              />
+              <label for="size_EU_40"> EU 40 </label>
+            </div>
+            <div class="checkbox_block">
+              <input
+                type="radio"
+                name="model"
+                class="js-offer"
+                id="size_EU_41"
+                value="117459"
+              />
+              <label for="size_EU_41"> EU 41 </label>
+            </div>
+            <div class="checkbox_block">
+              <input
+                type="radio"
+                name="model"
+                class="js-offer"
+                id="size_EU_42"
+                value="117459"
+              />
+              <label for="size_EU_42"> EU 42 </label>
+            </div>
+            <div class="checkbox_block">
+              <input
+                type="radio"
+                name="model"
+                class="js-offer"
+                id="size_EU_43"
+                value="117459"
+              />
+              <label for="size_EU_43"> EU 43 </label>
+            </div>
+          </div>
+          <p>23 756р</p>
+          <button class="product_button w-100">В корзину</button>
+        </div>
+      </div>
+    </div>
+    <script src="./Scripts/bootstrap.min.js"></script>
+  </body>
+</html>
